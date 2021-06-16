@@ -42,3 +42,29 @@
 .social-list-link {
     padding: .5em;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+h2, p {
+    text-align:  center;
+    margin:  0 auto;
+    padding-top:  40px;
+}
+
+h2 {
+    font-weight:  800;
+}
+
+
+@media (min-width: 600px) {
+    img {
+        align-self: center;
+    }
+    h2 {
+        text-align:  center;
+    }
+}
